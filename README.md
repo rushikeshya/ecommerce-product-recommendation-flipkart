@@ -1,4 +1,4 @@
-# 🛒 Flipkart Product Recommender System
+# 🛒 Flipkart-Ecommerce-Product-Recommendation
 ![dataset-cover](https://github.com/user-attachments/assets/84e5ab02-cdac-444c-9626-3f993608f9d8)
 
 A machine learning-based recommendation system that suggests relevant products using content-based and collaborative filtering techniques. Built with Python, Scikit-learn, and Flask, and designed to enhance user shopping experience.
