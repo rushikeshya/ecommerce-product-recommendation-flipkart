@@ -15,7 +15,7 @@ A machine learning-based recommendation system that suggests relevant products u
 flipkart-recommendation-system/<br>
 │<br>
 ├── app.py                 # Flask application<br>
-├── data_preparation.pyinb    # Data cleaning and preprocessing<br>
+├── data_preparation.ipynb    # Data cleaning and preprocessing<br>
 ├── recommendation_models.ipynb # Recommendation algorithms<br>
 ├── processed_products.csv # Processed data<br>
 ├── content_based_model.pkl # Saved content-based model<br>
@@ -42,5 +42,24 @@ flipkart-recommendation-system/<br>
    ```
 3. **Run the Flask app:**
    ```
+   python data_preparation.ipynb
+   python recommendation_models.ipynb
    python app.py
+   ```
+4. Open in browser: Navigate to http://127.0.0.1:5000/ to interact with the app.
+
+## 📦 Requirements 
+   ```bash
+   pip freeze > requirements.txt
+   ```
+Or use these common packages:
+
+   ```txt
+   pandas
+   numpy
+   scikit-learn
+   scipy
+   flask
+   matplotlib
+   seaborn
    ```
