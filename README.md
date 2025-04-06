@@ -12,26 +12,35 @@ A machine learning-based recommendation system that suggests relevant products u
 
 ## 📂 Project Structure
 
-flipkart-recommendation-system/
-│
-├── app.py                 # Flask application
-├── data_preparation.py    # Data cleaning and preprocessing
-├── recommendation_models.py # Recommendation algorithms
-├── processed_products.csv # Processed data
-├── content_based_model.pkl # Saved content-based model
-├── collab_filter_model.pkl # Saved collaborative filtering model
-├── requirements.txt       # Dependencies
-├── Procfile               # Heroku deployment config
-│
-├── templates/
-│   ├── index.html         # Home page
-│   ├── recommendations.html # Recommendations page
-│   └── product_detail.html # Product detail page
-│
+flipkart-recommendation-system/<br>
+│<br>
+├── app.py                 # Flask application<br>
+├── data_preparation.pyinb    # Data cleaning and preprocessing<br>
+├── recommendation_models.ipynb # Recommendation algorithms<br>
+├── processed_products.csv # Processed data<br>
+├── content_based_model.pkl # Saved content-based model<br>
+├── collab_filter_model.pkl # Saved collaborative filtering model<br>
+├── requirements.txt       # Dependencies<br>
+├── Procfile               # Heroku deployment config<br>
+│<br>
+├── templates/<br>
+│   ├── index.html         # Home page<br>
+│   ├── recommendations.html # Recommendations page<br>
+│   └── product_detail.html # Product detail page<br>
+│<br>
 └── venv/                  # Virtual environment
 
 ## 🧪 How to Run
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/rushikeshya/flipkart-product-recommender.git
-   cd flipkart-product-recommender```
+   cd flipkart-product-recommender
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the Flask app:**
+   ```
+   python app.py
+   ```
