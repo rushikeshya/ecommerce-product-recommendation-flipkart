@@ -67,3 +67,6 @@ Or use these common packages:
    ```
 ##🧑‍💻 Author
 Made with ❤️ by **Rushikesh Yadav**
+
+**App Interface:**
+![flipkart output](https://github.com/user-attachments/assets/381900c7-4085-4104-892c-01ac3b928cc4)
