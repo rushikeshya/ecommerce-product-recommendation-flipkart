@@ -69,7 +69,7 @@ Or use these common packages:
 Made with ❤️ by **Rushikesh Yadav**
 
 **Live App:**
-![Link](https://ecommerce-product-recommendation-flipkart.onrender.com/)
+https://ecommerce-product-recommendation-flipkart.onrender.com/
 
 **App Interface:**
 ![flipkart output](https://github.com/user-attachments/assets/381900c7-4085-4104-892c-01ac3b928cc4)
