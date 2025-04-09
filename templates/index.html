@@ -114,8 +114,6 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ product['Product Name'] }}</h5>
                         <p class="card-text">
-                            <strong>Price:</strong> ₹{{ product['Price'] }}<br>
-                            <strong>Rating:</strong> {{ product['Rating'] }} ★
                         </p>
                         <form action="/recommend" method="post" class="d-inline">
                             <input type="hidden" name="product_id" value="{{ product['Product Name'] }}">
